@@ -1,0 +1,36 @@
+{
+  "cpu": {
+    "available": false,
+    "reason": "disabled in gpu_only mode",
+    "sampling_errors": {}
+  },
+  "dram": {
+    "available": false,
+    "reason": "disabled in gpu_only mode",
+    "sampling_errors": {}
+  },
+  "system": {
+    "available": false,
+    "reason": "disabled in gpu_only mode",
+    "sampling_errors": {}
+  },
+  "gpu": {
+    "available": true,
+    "reason": "NVML power probe succeeded",
+    "scope": "selected_physical_gpus",
+    "devices": [
+      {
+        "index": 0,
+        "uuid": "GPU-57de0c10-3556-f601-a829-e3a4a2b1d3db",
+        "name": "NVIDIA GeForce RTX 4090"
+      }
+    ],
+    "sampling_interval_s": 0.1,
+    "power_source": "nvmlDeviceGetPowerUsage",
+    "averaging_window_s": null,
+    "minimum_window_s": 1.0,
+    "resolution_policy": "conservative_unknown_architecture",
+    "warning": "NVML can report 1-second averaged power; 100 ms polling does not imply 100 ms sensor resolution. Sub-second windows are unavailable.",
+    "sampling_errors": {}
+  }
+}

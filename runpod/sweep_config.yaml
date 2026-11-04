@@ -1,0 +1,38 @@
+# Edit this file, then run setup.sh once and run_session.sh for every sweep.
+# One config drives both model download and the benchmark sweep, so a crash
+# or a new pod just re-reads this file instead of re-typing commands.
+
+models:
+  - repo_id: Qwen/Qwen2.5-0.5B-Instruct
+    revision: 7ae557604adf67be50417f59c2c2f167def9a775  # pinned in TokenPowerBench's own reproduction docs
+    local_name: Qwen2.5-0.5B-Instruct
+  - repo_id: Qwen/Qwen2.5-3B-Instruct
+    revision: main  # not pinned upstream yet - after first download, replace "main" with the
+    local_name: Qwen2.5-3B-Instruct  # resolved commit hash (see setup.sh output) for a reproducible revision
+  - repo_id: Qwen/Qwen2.5-7B-Instruct
+    revision: a09a35458c702b33eeacc393d103063234e8bc28  # pinned in TokenPowerBench's own reproduction docs
+    local_name: Qwen2.5-7B-Instruct
+  - repo_id: Qwen/Qwen2.5-14B-Instruct
+    revision: main  # same as 3B: pin after first download
+    local_name: Qwen2.5-14B-Instruct  # BF16, no quantization: ~28GB of weights alone, will not fit a 24GB 4090.
+                                       # Kept as a deliberate "expect OOM" corner case; remove if you don't want the failure.
+
+batch_sizes: [1, 8, 32, 128]
+
+prompt_sources:
+  - name: mmlu
+    prompts_file: prompts/mmlu_prompts.json       # raw text, chat-templated by prepare_prompts.py; no --dataset loader involved
+  - name: humaneval
+    prompts_file: prompts/humaneval_prompts.json  # same - keeps request order aligned with prompts/data/humaneval_meta.json
+  - name: alpaca
+    dataset: alpaca                               # uses TokenPowerBench's built-in HF dataset loader
+    num_samples: 200
+
+output_tokens: 512
+max_model_len: 4096
+gpu_memory_utilization: 0.9
+monitor: gpu_only
+seed: 42
+temperature: 0.0
+pause_between_runs_s: 20   # let the GPU cool back to a consistent temperature between combos
+output_dir: results

@@ -1,0 +1,9 @@
+{
+  "uid": 0,
+  "euid": 0,
+  "gid": 0,
+  "egid": 0,
+  "is_root": true,
+  "platform": "Linux",
+  "machine_architecture": "x86_64"
+}

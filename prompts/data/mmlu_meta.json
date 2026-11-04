@@ -1,0 +1,1002 @@
+[
+ {
+  "id": "mmlu-13835",
+  "answer": "A",
+  "subject": "virology"
+ },
+ {
+  "id": "mmlu-6311",
+  "answer": "B",
+  "subject": "human_aging"
+ },
+ {
+  "id": "mmlu-12418",
+  "answer": "C",
+  "subject": "professional_medicine"
+ },
+ {
+  "id": "mmlu-6890",
+  "answer": "D",
+  "subject": "machine_learning"
+ },
+ {
+  "id": "mmlu-663",
+  "answer": "C",
+  "subject": "clinical_knowledge"
+ },
+ {
+  "id": "mmlu-4242",
+  "answer": "D",
+  "subject": "high_school_mathematics"
+ },
+ {
+  "id": "mmlu-8376",
+  "answer": "D",
+  "subject": "moral_disputes"
+ },
+ {
+  "id": "mmlu-7961",
+  "answer": "B",
+  "subject": "miscellaneous"
+ },
+ {
+  "id": "mmlu-6634",
+  "answer": "C",
+  "subject": "jurisprudence"
+ },
+ {
+  "id": "mmlu-12841",
+  "answer": "C",
+  "subject": "professional_psychology"
+ },
+ {
+  "id": "mmlu-13596",
+  "answer": "A",
+  "subject": "sociology"
+ },
+ {
+  "id": "mmlu-4969",
+  "answer": "D",
+  "subject": "high_school_psychology"
+ },
+ {
+  "id": "mmlu-7808",
+  "answer": "C",
+  "subject": "miscellaneous"
+ },
+ {
+  "id": "mmlu-5866",
+  "answer": "D",
+  "subject": "high_school_world_history"
+ },
+ {
+  "id": "mmlu-9558",
+  "answer": "A",
+  "subject": "nutrition"
+ },
+ {
+  "id": "mmlu-3578",
+  "answer": "D",
+  "subject": "high_school_geography"
+ },
+ {
+  "id": "mmlu-8268",
+  "answer": "D",
+  "subject": "moral_disputes"
+ },
+ {
+  "id": "mmlu-2281",
+  "answer": "B",
+  "subject": "elementary_mathematics"
+ },
+ {
+  "id": "mmlu-4617",
+  "answer": "C",
+  "subject": "high_school_microeconomics"
+ },
+ {
+  "id": "mmlu-2289",
+  "answer": "C",
+  "subject": "elementary_mathematics"
+ },
+ {
+  "id": "mmlu-12383",
+  "answer": "A",
+  "subject": "professional_medicine"
+ },
+ {
+  "id": "mmlu-1553",
+  "answer": "A",
+  "subject": "computer_security"
+ },
+ {
+  "id": "mmlu-10131",
+  "answer": "C",
+  "subject": "prehistory"
+ },
+ {
+  "id": "mmlu-13097",
+  "answer": "A",
+  "subject": "public_relations"
+ },
+ {
+  "id": "mmlu-4104",
+  "answer": "C",
+  "subject": "high_school_macroeconomics"
+ },
+ {
+  "id": "mmlu-8725",
+  "answer": "B",
+  "subject": "moral_scenarios"
+ },
+ {
+  "id": "mmlu-11553",
+  "answer": "A",
+  "subject": "professional_law"
+ },
+ {
+  "id": "mmlu-13274",
+  "answer": "A",
+  "subject": "security_studies"
+ },
+ {
+  "id": "mmlu-9861",
+  "answer": "C",
+  "subject": "philosophy"
+ },
+ {
+  "id": "mmlu-2407",
+  "answer": "A",
+  "subject": "elementary_mathematics"
+ },
+ {
+  "id": "mmlu-5081",
+  "answer": "B",
+  "subject": "high_school_psychology"
+ },
+ {
+  "id": "mmlu-1618",
+  "answer": "B",
+  "subject": "conceptual_physics"
+ },
+ {
+  "id": "mmlu-11957",
+  "answer": "D",
+  "subject": "professional_law"
+ },
+ {
+  "id": "mmlu-1208",
+  "answer": "D",
+  "subject": "college_medicine"
+ },
+ {
+  "id": "mmlu-13934",
+  "answer": "A",
+  "subject": "world_religions"
+ },
+ {
+  "id": "mmlu-11206",
+  "answer": "A",
+  "subject": "professional_law"
+ },
+ {
+  "id": "mmlu-5409",
+  "answer": "C",
+  "subject": "high_school_psychology"
+ },
+ {
+  "id": "mmlu-7735",
+  "answer": "A",
+  "subject": "miscellaneous"
+ },
+ {
+  "id": "mmlu-9171",
+  "answer": "C",
+  "subject": "moral_scenarios"
+ },
+ {
+  "id": "mmlu-1649",
+  "answer": "B",
+  "subject": "conceptual_physics"
+ },
+ {
+  "id": "mmlu-5796",
+  "answer": "B",
+  "subject": "high_school_us_history"
+ },
+ {
+  "id": "mmlu-7113",
+  "answer": "D",
+  "subject": "marketing"
+ },
+ {
+  "id": "mmlu-5180",
+  "answer": "B",
+  "subject": "high_school_psychology"
+ },
+ {
+  "id": "mmlu-10008",
+  "answer": "B",
+  "subject": "philosophy"
+ },
+ {
+  "id": "mmlu-10492",
+  "answer": "B",
+  "subject": "professional_accounting"
+ },
+ {
+  "id": "mmlu-3350",
+  "answer": "A",
+  "subject": "high_school_european_history"
+ },
+ {
+  "id": "mmlu-9052",
+  "answer": "B",
+  "subject": "moral_scenarios"
+ },
+ {
+  "id": "mmlu-7815",
+  "answer": "B",
+  "subject": "miscellaneous"
+ },
+ {
+  "id": "mmlu-7253",
+  "answer": "D",
+  "subject": "marketing"
+ },
+ {
+  "id": "mmlu-8541",
+  "answer": "C",
+  "subject": "moral_scenarios"
+ },
+ {
+  "id": "mmlu-4267",
+  "answer": "A",
+  "subject": "high_school_mathematics"
+ },
+ {
+  "id": "mmlu-1020",
+  "answer": "A",
+  "subject": "college_computer_science"
+ },
+ {
+  "id": "mmlu-13189",
+  "answer": "D",
+  "subject": "security_studies"
+ },
+ {
+  "id": "mmlu-8989",
+  "answer": "A",
+  "subject": "moral_scenarios"
+ },
+ {
+  "id": "mmlu-230",
+  "answer": "A",
+  "subject": "anatomy"
+ },
+ {
+  "id": "mmlu-1528",
+  "answer": "B",
+  "subject": "computer_security"
+ },
+ {
+  "id": "mmlu-11791",
+  "answer": "D",
+  "subject": "professional_law"
+ },
+ {
+  "id": "mmlu-13764",
+  "answer": "D",
+  "subject": "virology"
+ },
+ {
+  "id": "mmlu-6534",
+  "answer": "A",
+  "subject": "international_law"
+ },
+ {
+  "id": "mmlu-11636",
+  "answer": "B",
+  "subject": "professional_law"
+ },
+ {
+  "id": "mmlu-13514",
+  "answer": "D",
+  "subject": "sociology"
+ },
+ {
+  "id": "mmlu-12862",
+  "answer": "C",
+  "subject": "professional_psychology"
+ },
+ {
+  "id": "mmlu-10947",
+  "answer": "C",
+  "subject": "professional_law"
+ },
+ {
+  "id": "mmlu-10244",
+  "answer": "A",
+  "subject": "prehistory"
+ },
+ {
+  "id": "mmlu-18",
+  "answer": "D",
+  "subject": "abstract_algebra"
+ },
+ {
+  "id": "mmlu-10025",
+  "answer": "D",
+  "subject": "prehistory"
+ },
+ {
+  "id": "mmlu-8086",
+  "answer": "A",
+  "subject": "miscellaneous"
+ },
+ {
+  "id": "mmlu-13566",
+  "answer": "B",
+  "subject": "sociology"
+ },
+ {
+  "id": "mmlu-5458",
+  "answer": "A",
+  "subject": "high_school_statistics"
+ },
+ {
+  "id": "mmlu-3996",
+  "answer": "A",
+  "subject": "high_school_macroeconomics"
+ },
+ {
+  "id": "mmlu-11964",
+  "answer": "B",
+  "subject": "professional_law"
+ },
+ {
+  "id": "mmlu-5328",
+  "answer": "D",
+  "subject": "high_school_psychology"
+ },
+ {
+  "id": "mmlu-11528",
+  "answer": "A",
+  "subject": "professional_law"
+ },
+ {
+  "id": "mmlu-1031",
+  "answer": "C",
+  "subject": "college_computer_science"
+ },
+ {
+  "id": "mmlu-3130",
+  "answer": "B",
+  "subject": "high_school_chemistry"
+ },
+ {
+  "id": "mmlu-9298",
+  "answer": "D",
+  "subject": "moral_scenarios"
+ },
+ {
+  "id": "mmlu-3632",
+  "answer": "B",
+  "subject": "high_school_geography"
+ },
+ {
+  "id": "mmlu-3909",
+  "answer": "D",
+  "subject": "high_school_macroeconomics"
+ },
+ {
+  "id": "mmlu-13162",
+  "answer": "D",
+  "subject": "security_studies"
+ },
+ {
+  "id": "mmlu-2334",
+  "answer": "B",
+  "subject": "elementary_mathematics"
+ },
+ {
+  "id": "mmlu-13159",
+  "answer": "C",
+  "subject": "security_studies"
+ },
+ {
+  "id": "mmlu-8896",
+  "answer": "A",
+  "subject": "moral_scenarios"
+ },
+ {
+  "id": "mmlu-7339",
+  "answer": "B",
+  "subject": "medical_genetics"
+ },
+ {
+  "id": "mmlu-1494",
+  "answer": "C",
+  "subject": "computer_security"
+ },
+ {
+  "id": "mmlu-1318",
+  "answer": "B",
+  "subject": "college_medicine"
+ },
+ {
+  "id": "mmlu-5243",
+  "answer": "D",
+  "subject": "high_school_psychology"
+ },
+ {
+  "id": "mmlu-8322",
+  "answer": "C",
+  "subject": "moral_disputes"
+ },
+ {
+  "id": "mmlu-8016",
+  "answer": "A",
+  "subject": "miscellaneous"
+ },
+ {
+  "id": "mmlu-1786",
+  "answer": "D",
+  "subject": "conceptual_physics"
+ },
+ {
+  "id": "mmlu-4938",
+  "answer": "B",
+  "subject": "high_school_psychology"
+ },
+ {
+  "id": "mmlu-9031",
+  "answer": "B",
+  "subject": "moral_scenarios"
+ },
+ {
+  "id": "mmlu-4769",
+  "answer": "B",
+  "subject": "high_school_physics"
+ },
+ {
+  "id": "mmlu-11576",
+  "answer": "C",
+  "subject": "professional_law"
+ },
+ {
+  "id": "mmlu-2044",
+  "answer": "B",
+  "subject": "electrical_engineering"
+ },
+ {
+  "id": "mmlu-8969",
+  "answer": "B",
+  "subject": "moral_scenarios"
+ },
+ {
+  "id": "mmlu-5451",
+  "answer": "D",
+  "subject": "high_school_statistics"
+ },
+ {
+  "id": "mmlu-13344",
+  "answer": "C",
+  "subject": "security_studies"
+ },
+ {
+  "id": "mmlu-8852",
+  "answer": "D",
+  "subject": "moral_scenarios"
+ },
+ {
+  "id": "mmlu-3329",
+  "answer": "C",
+  "subject": "high_school_european_history"
+ },
+ {
+  "id": "mmlu-9882",
+  "answer": "D",
+  "subject": "philosophy"
+ },
+ {
+  "id": "mmlu-8965",
+  "answer": "A",
+  "subject": "moral_scenarios"
+ },
+ {
+  "id": "mmlu-9627",
+  "answer": "C",
+  "subject": "nutrition"
+ },
+ {
+  "id": "mmlu-4712",
+  "answer": "D",
+  "subject": "high_school_microeconomics"
+ },
+ {
+  "id": "mmlu-7290",
+  "answer": "D",
+  "subject": "medical_genetics"
+ },
+ {
+  "id": "mmlu-1501",
+  "answer": "D",
+  "subject": "computer_security"
+ },
+ {
+  "id": "mmlu-9769",
+  "answer": "C",
+  "subject": "philosophy"
+ },
+ {
+  "id": "mmlu-13073",
+  "answer": "D",
+  "subject": "public_relations"
+ },
+ {
+  "id": "mmlu-6306",
+  "answer": "A",
+  "subject": "human_aging"
+ },
+ {
+  "id": "mmlu-5194",
+  "answer": "B",
+  "subject": "high_school_psychology"
+ },
+ {
+  "id": "mmlu-9431",
+  "answer": "D",
+  "subject": "nutrition"
+ },
+ {
+  "id": "mmlu-3966",
+  "answer": "C",
+  "subject": "high_school_macroeconomics"
+ },
+ {
+  "id": "mmlu-4756",
+  "answer": "B",
+  "subject": "high_school_physics"
+ },
+ {
+  "id": "mmlu-3012",
+  "answer": "C",
+  "subject": "high_school_chemistry"
+ },
+ {
+  "id": "mmlu-3102",
+  "answer": "B",
+  "subject": "high_school_chemistry"
+ },
+ {
+  "id": "mmlu-13458",
+  "answer": "A",
+  "subject": "sociology"
+ },
+ {
+  "id": "mmlu-3059",
+  "answer": "B",
+  "subject": "high_school_chemistry"
+ },
+ {
+  "id": "mmlu-540",
+  "answer": "B",
+  "subject": "clinical_knowledge"
+ },
+ {
+  "id": "mmlu-10039",
+  "answer": "C",
+  "subject": "prehistory"
+ },
+ {
+  "id": "mmlu-10758",
+  "answer": "A",
+  "subject": "professional_law"
+ },
+ {
+  "id": "mmlu-4260",
+  "answer": "D",
+  "subject": "high_school_mathematics"
+ },
+ {
+  "id": "mmlu-7807",
+  "answer": "C",
+  "subject": "miscellaneous"
+ },
+ {
+  "id": "mmlu-1131",
+  "answer": "D",
+  "subject": "college_mathematics"
+ },
+ {
+  "id": "mmlu-1471",
+  "answer": "C",
+  "subject": "computer_security"
+ },
+ {
+  "id": "mmlu-11120",
+  "answer": "A",
+  "subject": "professional_law"
+ },
+ {
+  "id": "mmlu-12412",
+  "answer": "B",
+  "subject": "professional_medicine"
+ },
+ {
+  "id": "mmlu-2133",
+  "answer": "C",
+  "subject": "elementary_mathematics"
+ },
+ {
+  "id": "mmlu-2450",
+  "answer": "B",
+  "subject": "formal_logic"
+ },
+ {
+  "id": "mmlu-633",
+  "answer": "B",
+  "subject": "clinical_knowledge"
+ },
+ {
+  "id": "mmlu-13802",
+  "answer": "A",
+  "subject": "virology"
+ },
+ {
+  "id": "mmlu-1314",
+  "answer": "D",
+  "subject": "college_medicine"
+ },
+ {
+  "id": "mmlu-11457",
+  "answer": "C",
+  "subject": "professional_law"
+ },
+ {
+  "id": "mmlu-13588",
+  "answer": "C",
+  "subject": "sociology"
+ },
+ {
+  "id": "mmlu-8857",
+  "answer": "D",
+  "subject": "moral_scenarios"
+ },
+ {
+  "id": "mmlu-11198",
+  "answer": "D",
+  "subject": "professional_law"
+ },
+ {
+  "id": "mmlu-6410",
+  "answer": "A",
+  "subject": "human_sexuality"
+ },
+ {
+  "id": "mmlu-13727",
+  "answer": "D",
+  "subject": "virology"
+ },
+ {
+  "id": "mmlu-11555",
+  "answer": "C",
+  "subject": "professional_law"
+ },
+ {
+  "id": "mmlu-8594",
+  "answer": "C",
+  "subject": "moral_scenarios"
+ },
+ {
+  "id": "mmlu-4515",
+  "answer": "D",
+  "subject": "high_school_microeconomics"
+ },
+ {
+  "id": "mmlu-8549",
+  "answer": "D",
+  "subject": "moral_scenarios"
+ },
+ {
+  "id": "mmlu-13297",
+  "answer": "D",
+  "subject": "security_studies"
+ },
+ {
+  "id": "mmlu-3858",
+  "answer": "D",
+  "subject": "high_school_macroeconomics"
+ },
+ {
+  "id": "mmlu-13917",
+  "answer": "A",
+  "subject": "world_religions"
+ },
+ {
+  "id": "mmlu-3525",
+  "answer": "A",
+  "subject": "high_school_geography"
+ },
+ {
+  "id": "mmlu-11132",
+  "answer": "A",
+  "subject": "professional_law"
+ },
+ {
+  "id": "mmlu-9663",
+  "answer": "A",
+  "subject": "nutrition"
+ },
+ {
+  "id": "mmlu-13521",
+  "answer": "B",
+  "subject": "sociology"
+ },
+ {
+  "id": "mmlu-6871",
+  "answer": "D",
+  "subject": "machine_learning"
+ },
+ {
+  "id": "mmlu-9497",
+  "answer": "B",
+  "subject": "nutrition"
+ },
+ {
+  "id": "mmlu-4509",
+  "answer": "C",
+  "subject": "high_school_microeconomics"
+ },
+ {
+  "id": "mmlu-7382",
+  "answer": "A",
+  "subject": "medical_genetics"
+ },
+ {
+  "id": "mmlu-8071",
+  "answer": "C",
+  "subject": "miscellaneous"
+ },
+ {
+  "id": "mmlu-10817",
+  "answer": "A",
+  "subject": "professional_law"
+ },
+ {
+  "id": "mmlu-10505",
+  "answer": "D",
+  "subject": "professional_accounting"
+ },
+ {
+  "id": "mmlu-11472",
+  "answer": "A",
+  "subject": "professional_law"
+ },
+ {
+  "id": "mmlu-12997",
+  "answer": "A",
+  "subject": "professional_psychology"
+ },
+ {
+  "id": "mmlu-5855",
+  "answer": "C",
+  "subject": "high_school_world_history"
+ },
+ {
+  "id": "mmlu-1349",
+  "answer": "C",
+  "subject": "college_medicine"
+ },
+ {
+  "id": "mmlu-5313",
+  "answer": "B",
+  "subject": "high_school_psychology"
+ },
+ {
+  "id": "mmlu-1889",
+  "answer": "D",
+  "subject": "econometrics"
+ },
+ {
+  "id": "mmlu-7969",
+  "answer": "A",
+  "subject": "miscellaneous"
+ },
+ {
+  "id": "mmlu-9618",
+  "answer": "C",
+  "subject": "nutrition"
+ },
+ {
+  "id": "mmlu-10324",
+  "answer": "D",
+  "subject": "prehistory"
+ },
+ {
+  "id": "mmlu-5493",
+  "answer": "D",
+  "subject": "high_school_statistics"
+ },
+ {
+  "id": "mmlu-13845",
+  "answer": "D",
+  "subject": "virology"
+ },
+ {
+  "id": "mmlu-3119",
+  "answer": "B",
+  "subject": "high_school_chemistry"
+ },
+ {
+  "id": "mmlu-3981",
+  "answer": "D",
+  "subject": "high_school_macroeconomics"
+ },
+ {
+  "id": "mmlu-265",
+  "answer": "B",
+  "subject": "astronomy"
+ },
+ {
+  "id": "mmlu-11984",
+  "answer": "B",
+  "subject": "professional_law"
+ },
+ {
+  "id": "mmlu-4440",
+  "answer": "C",
+  "subject": "high_school_mathematics"
+ },
+ {
+  "id": "mmlu-1919",
+  "answer": "C",
+  "subject": "econometrics"
+ },
+ {
+  "id": "mmlu-11556",
+  "answer": "A",
+  "subject": "professional_law"
+ },
+ {
+  "id": "mmlu-3612",
+  "answer": "C",
+  "subject": "high_school_geography"
+ },
+ {
+  "id": "mmlu-6095",
+  "answer": "D",
+  "subject": "human_aging"
+ },
+ {
+  "id": "mmlu-13018",
+  "answer": "D",
+  "subject": "professional_psychology"
+ },
+ {
+  "id": "mmlu-2793",
+  "answer": "C",
+  "subject": "high_school_biology"
+ },
+ {
+  "id": "mmlu-5448",
+  "answer": "B",
+  "subject": "high_school_statistics"
+ },
+ {
+  "id": "mmlu-6981",
+  "answer": "C",
+  "subject": "management"
+ },
+ {
+  "id": "mmlu-13367",
+  "answer": "A",
+  "subject": "security_studies"
+ },
+ {
+  "id": "mmlu-1018",
+  "answer": "A",
+  "subject": "college_computer_science"
+ },
+ {
+  "id": "mmlu-1648",
+  "answer": "A",
+  "subject": "conceptual_physics"
+ },
+ {
+  "id": "mmlu-12830",
+  "answer": "C",
+  "subject": "professional_psychology"
+ },
+ {
+  "id": "mmlu-2397",
+  "answer": "D",
+  "subject": "elementary_mathematics"
+ },
+ {
+  "id": "mmlu-14013",
+  "answer": "D",
+  "subject": "world_religions"
+ },
+ {
+  "id": "mmlu-11430",
+  "answer": "D",
+  "subject": "professional_law"
+ },
+ {
+  "id": "mmlu-3584",
+  "answer": "C",
+  "subject": "high_school_geography"
+ },
+ {
+  "id": "mmlu-741",
+  "answer": "D",
+  "subject": "clinical_knowledge"
+ },
+ {
+  "id": "mmlu-13387",
+  "answer": "C",
+  "subject": "security_studies"
+ },
+ {
+  "id": "mmlu-9402",
+  "answer": "D",
+  "subject": "moral_scenarios"
+ },
+ {
+  "id": "mmlu-10390",
+  "answer": "D",
+  "subject": "professional_accounting"
+ },
+ {
+  "id": "mmlu-8752",
+  "answer": "D",
+  "subject": "moral_scenarios"
+ },
+ {
+  "id": "mmlu-9865",
+  "answer": "D",
+  "subject": "philosophy"
+ },
+ {
+  "id": "mmlu-11150",
+  "answer": "A",
+  "subject": "professional_law"
+ },
+ {
+  "id": "mmlu-1212",
+  "answer": "C",
+  "subject": "college_medicine"
+ },
+ {
+  "id": "mmlu-437",
+  "answer": "A",
+  "subject": "business_ethics"
+ },
+ {
+  "id": "mmlu-2038",
+  "answer": "C",
+  "subject": "electrical_engineering"
+ },
+ {
+  "id": "mmlu-10403",
+  "answer": "C",
+  "subject": "professional_accounting"
+ },
+ {
+  "id": "mmlu-3088",
+  "answer": "D",
+  "subject": "high_school_chemistry"
+ },
+ {
+  "id": "mmlu-9934",
+  "answer": "B",
+  "subject": "philosophy"
+ },
+ {
+  "id": "mmlu-13600",
+  "answer": "D",
+  "subject": "sociology"
+ }
+]

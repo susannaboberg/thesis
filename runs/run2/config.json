@@ -1,0 +1,24 @@
+{
+  "model": "models/Qwen2.5-0.5B-Instruct",
+  "prompts_file": null,
+  "dataset": null,
+  "num_samples": 45,
+  "batch_sizes": [
+    1
+  ],
+  "output_tokens": 512,
+  "phase_profiling": true,
+  "monitor": "gpu_only",
+  "output_dir": "results",
+  "seed": 42,
+  "temperature": 0.0,
+  "max_model_len": 4096,
+  "tensor_parallel_size": null,
+  "gpu_memory_utilization": 0.2,
+  "min_words": 2,
+  "max_words": 300,
+  "engine": "vllm",
+  "check_monitor": false,
+  "prompt_sha256": "4ecffda0bbc0ed46afbd0b11de25e2d5adbf7f867af4dfc61f29e67544a38fb7",
+  "prompt_policy": "raw text, no implicit chat template; repeat ordered prompts to num_samples"
+}

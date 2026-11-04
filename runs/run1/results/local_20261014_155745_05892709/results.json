@@ -1,0 +1,244 @@
+{
+  "batch_1": {
+    "batch_size": 1,
+    "start_s": 5413.508615099,
+    "end_s": 5414.570598429,
+    "total_output_tokens": 267,
+    "num_responses": 1,
+    "output_tokens_per_s": 251.41637581077975,
+    "energy": {
+      "duration": 1.061983329999748,
+      "total_output_tokens": 267,
+      "num_responses": 1,
+      "gpu_avg_power_w": 88.17434428026637,
+      "gpu_energy_j": 93.63968375930152,
+      "per_gpu_power_w": {
+        "0": 88.17434428026637
+      },
+      "cpu_avg_power_w": null,
+      "cpu_energy_j": null,
+      "dram_avg_power_w": null,
+      "dram_energy_j": null,
+      "system_avg_power_w": null,
+      "system_energy_j": null,
+      "energy_scope": "selected_gpus",
+      "start_time": 5413.508615099,
+      "end_time": 5414.570598429,
+      "capabilities": {
+        "cpu": {
+          "available": false,
+          "reason": "disabled in gpu_only mode",
+          "sampling_errors": {}
+        },
+        "dram": {
+          "available": false,
+          "reason": "disabled in gpu_only mode",
+          "sampling_errors": {}
+        },
+        "system": {
+          "available": false,
+          "reason": "disabled in gpu_only mode",
+          "sampling_errors": {}
+        },
+        "gpu": {
+          "available": true,
+          "reason": "NVML power probe succeeded",
+          "scope": "selected_physical_gpus",
+          "devices": [
+            {
+              "index": 0,
+              "uuid": "GPU-57de0c10-3556-f601-a829-e3a4a2b1d3db",
+              "name": "NVIDIA GeForce RTX 4090"
+            }
+          ],
+          "sampling_interval_s": 0.1,
+          "power_source": "nvmlDeviceGetPowerUsage",
+          "averaging_window_s": null,
+          "minimum_window_s": 1.0,
+          "resolution_policy": "conservative_unknown_architecture",
+          "warning": "NVML can report 1-second averaged power; 100 ms polling does not imply 100 ms sensor resolution. Sub-second windows are unavailable.",
+          "sampling_errors": {}
+        }
+      },
+      "warnings": [
+        "NVML can report 1-second averaged power; 100 ms polling does not imply 100 ms sensor resolution. Sub-second windows are unavailable."
+      ],
+      "sample_counts": {
+        "gpu:0": 10
+      },
+      "per_gpu_energy_j": {
+        "0": 93.63968375930152
+      },
+      "total_energy_j": null,
+      "components_energy_j": 93.63968375930152,
+      "energy_per_token_j": null,
+      "gpu_mj_per_token": 350.71042606479966,
+      "total_mj_per_token": null
+    },
+    "phases": [
+      {
+        "request_id": "tpbench-4485fac391ad46e090d2a3161f3ebbbf-0",
+        "submitted_s": 5413.508618379,
+        "dispatch_completed_s": 5413.509237392,
+        "prefill_start_s": 5413.508618379,
+        "first_token_s": 5413.520132831,
+        "finished_s": 5414.570552009,
+        "input_tokens": 9,
+        "output_tokens": 267,
+        "ttft_s": 0.011514452000483288,
+        "prefill_proxy_s": 0.011514452000483288,
+        "decode_s": 1.0504191779991743,
+        "request_latency_s": 1.0619336299996576,
+        "timing_source": "host_engine_step",
+        "clock": "time.perf_counter",
+        "phase_boundary_kind": "host_observed_first_token",
+        "limitations": [
+          "First-token boundaries are observed on the host after engine.step returns; tokenization, queueing, scheduler, host, and output-processing overhead are included.",
+          "Prefill is a proxy interval, not exact GPU kernel attribution.",
+          "Dispatch completion is not GPU execution start; a background engine may start executing before add_request returns.",
+          "Engine preemption and recomputation are not observable through this interface; phase intervals cannot certify their absence."
+        ],
+        "prefill_proxy_energy": {
+          "duration": 0.011514452000483288,
+          "total_output_tokens": 0,
+          "num_responses": 1,
+          "gpu_avg_power_w": null,
+          "gpu_energy_j": null,
+          "per_gpu_power_w": {
+            "0": null
+          },
+          "cpu_avg_power_w": null,
+          "cpu_energy_j": null,
+          "dram_avg_power_w": null,
+          "dram_energy_j": null,
+          "system_avg_power_w": null,
+          "system_energy_j": null,
+          "energy_scope": "unavailable",
+          "start_time": 5413.508618379,
+          "end_time": 5413.520132831,
+          "capabilities": {
+            "cpu": {
+              "available": false,
+              "reason": "disabled in gpu_only mode",
+              "sampling_errors": {}
+            },
+            "dram": {
+              "available": false,
+              "reason": "disabled in gpu_only mode",
+              "sampling_errors": {}
+            },
+            "system": {
+              "available": false,
+              "reason": "disabled in gpu_only mode",
+              "sampling_errors": {}
+            },
+            "gpu": {
+              "available": true,
+              "reason": "NVML power probe succeeded",
+              "scope": "selected_physical_gpus",
+              "devices": [
+                {
+                  "index": 0,
+                  "uuid": "GPU-57de0c10-3556-f601-a829-e3a4a2b1d3db",
+                  "name": "NVIDIA GeForce RTX 4090"
+                }
+              ],
+              "sampling_interval_s": 0.1,
+              "power_source": "nvmlDeviceGetPowerUsage",
+              "averaging_window_s": null,
+              "minimum_window_s": 1.0,
+              "resolution_policy": "conservative_unknown_architecture",
+              "warning": "NVML can report 1-second averaged power; 100 ms polling does not imply 100 ms sensor resolution. Sub-second windows are unavailable.",
+              "sampling_errors": {}
+            }
+          },
+          "warnings": [
+            "NVML can report 1-second averaged power; 100 ms polling does not imply 100 ms sensor resolution. Sub-second windows are unavailable.",
+            "GPU 0: window shorter than conservative 1-second NVML averaging resolution"
+          ],
+          "sample_counts": {
+            "gpu:0": 0
+          },
+          "per_gpu_energy_j": {
+            "0": null
+          },
+          "total_energy_j": null,
+          "components_energy_j": null,
+          "energy_per_token_j": null,
+          "gpu_mj_per_token": null,
+          "total_mj_per_token": null
+        },
+        "decode_energy": {
+          "duration": 1.0504191779991743,
+          "total_output_tokens": 266,
+          "num_responses": 1,
+          "gpu_avg_power_w": 88.40880947041282,
+          "gpu_energy_j": 92.86630897179664,
+          "per_gpu_power_w": {
+            "0": 88.40880947041282
+          },
+          "cpu_avg_power_w": null,
+          "cpu_energy_j": null,
+          "dram_avg_power_w": null,
+          "dram_energy_j": null,
+          "system_avg_power_w": null,
+          "system_energy_j": null,
+          "energy_scope": "selected_gpus",
+          "start_time": 5413.520132831,
+          "end_time": 5414.570552009,
+          "capabilities": {
+            "cpu": {
+              "available": false,
+              "reason": "disabled in gpu_only mode",
+              "sampling_errors": {}
+            },
+            "dram": {
+              "available": false,
+              "reason": "disabled in gpu_only mode",
+              "sampling_errors": {}
+            },
+            "system": {
+              "available": false,
+              "reason": "disabled in gpu_only mode",
+              "sampling_errors": {}
+            },
+            "gpu": {
+              "available": true,
+              "reason": "NVML power probe succeeded",
+              "scope": "selected_physical_gpus",
+              "devices": [
+                {
+                  "index": 0,
+                  "uuid": "GPU-57de0c10-3556-f601-a829-e3a4a2b1d3db",
+                  "name": "NVIDIA GeForce RTX 4090"
+                }
+              ],
+              "sampling_interval_s": 0.1,
+              "power_source": "nvmlDeviceGetPowerUsage",
+              "averaging_window_s": null,
+              "minimum_window_s": 1.0,
+              "resolution_policy": "conservative_unknown_architecture",
+              "warning": "NVML can report 1-second averaged power; 100 ms polling does not imply 100 ms sensor resolution. Sub-second windows are unavailable.",
+              "sampling_errors": {}
+            }
+          },
+          "warnings": [
+            "NVML can report 1-second averaged power; 100 ms polling does not imply 100 ms sensor resolution. Sub-second windows are unavailable."
+          ],
+          "sample_counts": {
+            "gpu:0": 10
+          },
+          "per_gpu_energy_j": {
+            "0": 92.86630897179664
+          },
+          "total_energy_j": null,
+          "components_energy_j": 92.86630897179664,
+          "energy_per_token_j": null,
+          "gpu_mj_per_token": 349.12146229998734,
+          "total_mj_per_token": null
+        }
+      }
+    ],
+    "phase_status": "serial_host_boundaries"
+  }
+}
