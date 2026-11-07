@@ -6,6 +6,7 @@ source /workspace/venv/bin/activate
 pip install --upgrade pip
 
 # TokenPowerBench w/ patches to save prompt outputs
+rm -rf /tmp/TokenPowerBench
 git clone --quiet https://github.com/chenxuniu/TokenPowerBench.git /tmp/TokenPowerBench
 git -C /tmp/TokenPowerBench checkout --quiet 9a50272
 git -C /tmp/TokenPowerBench apply "$(pwd)/patches/write-outputs.patch"
