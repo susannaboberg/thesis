@@ -1,0 +1,50 @@
+diff --git a/tokenpowerbench/api.py b/tokenpowerbench/api.py
+index f893ade..ade734e 100644
+--- a/tokenpowerbench/api.py
++++ b/tokenpowerbench/api.py
+@@ -345,6 +345,9 @@ def benchmark(
+                         ("save raw samples", lambda: write_json(run_dir / f"batch_{batch}_power_samples.json", sensor.samples)),
+                     ], cleanup_errors)
+                 total_tokens = engine.estimate_tokens(outputs)
++                # [CHANGE]
++                write_json(run_dir / f"batch_{batch}_outputs.json", engine.extract_texts(outputs))
++
+                 if len(outputs) != len(requests) or total_tokens <= 0:
+                     raise RuntimeError("Inference returned incomplete responses or no generated token IDs")
+                 metrics = sensor.compute_metrics(end - start, total_tokens, len(outputs), start_time=start, end_time=end)
+diff --git a/tokenpowerbench/engines/base.py b/tokenpowerbench/engines/base.py
+index 10bfda4..0420efd 100644
+--- a/tokenpowerbench/engines/base.py
++++ b/tokenpowerbench/engines/base.py
+@@ -34,3 +34,9 @@ class InferenceEngine(ABC):
+     @abstractmethod
+     def estimate_tokens(self, outputs: List[Any]) -> int:
+         """Count total generated token IDs; legacy method name retained."""
++
++    # [CHANGE]
++    @abstractmethod
++    def extract_texts(self, outputs: List[Any]) -> List[dict]:
++        """Return per-response {"prompt": str, "output_text": str} records."""
++
+diff --git a/tokenpowerbench/engines/vllm_engine.py b/tokenpowerbench/engines/vllm_engine.py
+index bb12a6b..154662c 100644
+--- a/tokenpowerbench/engines/vllm_engine.py
++++ b/tokenpowerbench/engines/vllm_engine.py
+@@ -301,6 +301,17 @@ class VLLMEngine(InferenceEngine):
+                 total += len(token_ids)
+         return total
+ 
++    # [CHANGE]
++    def extract_texts(self, outputs: List[Any]) -> List[dict]:
++        records = []
++        for output in outputs:
++            completions = getattr(output, "outputs", None)
++            if not completions:
++                raise ValueError("Cannot extract text: response has no completions.")
++            records.append({"prompt": output.prompt, "output_text": completions[0].text})
++        return records
++
++
+ 
+ def _engine_config(llm: Any, requested: dict) -> dict:
+     """Keep requested and effective vLLM settings distinct in run artifacts."""
